@@ -12,7 +12,7 @@ void area ()
     int oda = dx*ay - dy*ax;
     int obc = bx*cy - by*cx;
     
-    long long  A = (oab + ocd+ oda+ obc);
+    long long  A = (oab + ocd + oda + obc);
     
     if(A < 0)
         A = -A;
